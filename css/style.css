@@ -1,17 +1,3 @@
-/* ==========================================
-   CSS Sizing Units Explanation:
-   1. px  - Fixed sizing used for precise borders, padding, and subtle rounded corners.
-   2. %   - Fluid layout sizing used to ensure images and tables scale within parent containers.
-   3. rem - Scalable root-relative unit used for consistent typography and structural spacing.
-   4. vh  - Viewport height unit ensuring the page body expands to fill full browser windows.
-   ========================================== */
-
-/* Color Formats Used:
-   - Hex: #1e293b, #2563eb, #cbd5e1
-   - RGB: rgb(241, 245, 249), rgb(30, 41, 59)
-   - Named: white, transparent
-*/
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(241, 245, 249);
@@ -28,7 +14,6 @@ header {
     text-align: center;
 }
 
-/* Navigation Link Styling */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -46,19 +31,16 @@ nav a {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Hover state modifying transform and background */
 nav a:hover {
     background-color: #2563eb;
     transform: translateY(-2px);
 }
 
-/* Active Page Indicator Class */
 .active {
     background-color: #2563eb;
     font-weight: bold;
 }
 
-/* Box Model Layout */
 main {
     width: 80%;
     margin: 2rem auto;
@@ -75,7 +57,6 @@ img {
     margin: 10px 0;
 }
 
-/* Table Design */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -108,7 +89,6 @@ tfoot td {
     font-style: italic;
 }
 
-/* Form Controls */
 fieldset {
     border: 2px solid #2563eb;
     border-radius: 6px;
@@ -141,7 +121,6 @@ textarea {
     box-sizing: border-box;
 }
 
-/* Focus Indicator State */
 input:focus,
 textarea:focus {
     outline: 3px solid #2563eb;
