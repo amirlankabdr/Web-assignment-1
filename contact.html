@@ -70,33 +70,26 @@
                 <fieldset>
                     <legend>Hardware Inquiry Form</legend>
 
-                    <!-- Input 1: Text with maxlength validation -->
                     <label for="fullname">Full Name:</label>
                     <input type="text" id="fullname" name="fullname" required maxlength="30" placeholder="e.g. John Doe">
 
-                    <!-- Input 2: Email -->
                     <label for="email">Email Address:</label>
                     <input type="email" id="email" name="email" required placeholder="name@example.com">
 
-                    <!-- Input 3: Number with min/max validation -->
                     <label for="budget">Total Budget ($500 - $10000):</label>
                     <input type="number" id="budget" name="budget" min="500" max="10000" placeholder="1500">
 
-                    <!-- Input 4: Date -->
                     <label for="builddate">Target Completion Date:</label>
                     <input type="date" id="builddate" name="builddate">
 
-                    <!-- Input 5: Color -->
                     <label for="rgbcolor">Preferred Internal Cable Color:</label>
                     <input type="color" id="rgbcolor" name="rgbcolor" value="#2563eb">
 
-                    <!-- Grouped Radio Buttons -->
                     <p>Primary PC Workload Purpose:</p>
                     <label><input type="radio" name="workload" value="gaming" checked> Gaming Focus</label>
                     <label><input type="radio" name="workload" value="rendering"> 3D Modeling & Rendering</label>
                     <label><input type="radio" name="workload" value="office"> General Office Use</label>
 
-                    <!-- Textarea -->
                     <label for="notes">Additional System Requirements:</label>
                     <textarea id="notes" name="notes" rows="4" placeholder="List specific software, liquid cooling, or noise preferences..."></textarea>
 
